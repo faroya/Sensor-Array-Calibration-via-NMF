@@ -1,6 +1,20 @@
-# CV
-This code was written by Farouk Yahaya.
-Part of my PhD thesis for sensor calibration using a randomized informed non-negative matrix factorization.
+### Download
+ 
+The code was written by Farouk YAHAYA and is maintained by Farouk YAHAYA
+Please contact me if you want this code: faroya2011@gmail.com or farouk.yahaya@inria.fr
 
-When you use this code please cite
+And if you use the code please cite my thesis
+### Reference
+> "Méthodes étendues de factorisation informée de matrices ou tenseurs (semi-) non-négatifs pour l'analyse de données incomplètes et de grande dimension: Application au traitement de données issues du mobile crowdsensing." Littoral, 2021.
+### by Farouk Yahaya
+
+# English Abstract:
+
+Air pollution poses substantial health issues with several hundred thousands of premature deaths in Europe each year. Effective air quality monitoring is thus an major task for environmental agencies. It is usually carried out by some highly accurate monitoring stations. However, these stations are expensive and limited in number, thus providing a low spatio-temporal resolution. The deployment of low-cost sensors (LCS) promises a complementary solution with lower cost and higher spatio-temporal resolution. Unfortunately, LCS tend to drift over time and their high number prevents regular in-lab calibration. Data-driven techniques named in-situ calibration have thus been proposed. In particular, revisiting mobile sensor calibration as a matrix factorization problem seems promising. However, existing approaches are based on slow methods-and are not suited forlarge-scale problems involving hundreds of sensors deployed over a large area-and are designed for short-term deployments. To solve both issues, compressive non-negative matrix factorization have been proposed in this thesis, which is divided into two parts. In the first part, we investigate the enhancement provided by random projections for weighted non-negative matrix factorization. We show that these techniques can significantly speed-up large-scale and low-rank matrix factorization methods, thus allowing the fast estimation of missing entries in low-rank matrices. In the second part, we revisit mobile heterogeneous sensor calibration as an informed factorization of large matrices with missing entries. We thus propose fast informed matrix factorization approaches, and in particular informed extensions of compressive methods proposed in the first part, which are found to be well-suited for the considered problem. 
+
+# French Abstract:
+
+La pollution de l’air pose d’importants problèmes de santé avec plusieurs centaines de milliers de décès prématurés en Europe chaque année. Une surveillance efficace de la qualité de l’air est donc une tâche majeure pour les agences environnementales. Elle est généralement effectuée par des stations de surveillance très précises. Cependant, ces stations sont coûteuses et en nombre limité, offrant ainsi une faible résolution spatio-temporelle. Le déploiement de capteurs low-cost (LCS) promet une solution complémentaire à moindre coût et à plus haute résolution spatio-temporelle. Malheureusement, les LCS ont tendance à dériver avec le temps et leur nombre élevé empêche un étalonnage régulier en laboratoire. Des techniques basées sur les données nommées étalonnage in situ ont ainsi été proposées. En particulier, revisiter l’étalonnage des capteurs mobiles commeun problème de factorisation matricielle semble prometteur. Cependant, les approches existantes sont basées sur des méthodes lentes – elles ne sont pas adaptées aux problèmes à grande échelle impliquant des centaines de capteurs déployés sur une vaste zone – et sont conçues pour des déploiements à court terme. Pour résoudre ces deux problèmes, des factorisations matricielles non-négatives comprimées ont été proposées dans cette thèse, qui est divisée en deux parties. Dans la première partie, nous étudions l’amélioration apportée par les projections aléatoires pour la factorisation matricielle non-négative pondérée. Nous montrons que ces techniques peuvent accélérer considérablement les méthodes de factorisation matricielle à grande échelle et de faible rang, permettant ainsi l’estimation rapide des entrées manquantes dans les matrices de faible rang. Dans la deuxième partie, nous revisitons l’étalonnage de capteurs hétérogènes mobiles comme une factorisation informée de grandes matrices avec des entrées manquantes. Nous proposons ainsi des approches de factorisation matricielle informées rapides, et en particulier des extensions informées des méthodes comprimées proposées dans la première partie, qui s’avèrent bien adaptées au problème considéré.
+
+
 
