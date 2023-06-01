@@ -1,7 +1,7 @@
 ### Download
  
 The code was written by Farouk YAHAYA and is maintained by Farouk YAHAYA
-Please contact me if you want this code: faroya2011@gmail.com or farouk.yahaya@inria.fr
+Please contact me if you want the *full code:* faroya2011@gmail.com or farouk.yahaya@inria.fr
 
 And if you use the code please cite my thesis
 ### Reference
